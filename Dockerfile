@@ -39,8 +39,8 @@ RUN docker-php-ext-install pdo_mysql
 RUN apt-get install -y git
 RUN apt-get install -y zip
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-USER developer
-ENV HOME /home/developer
+#USER developer
+#ENV HOME /home/developer
 
 
 
